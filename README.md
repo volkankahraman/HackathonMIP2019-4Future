@@ -29,6 +29,13 @@ MOSB odaklı kullanıcı ve sanayicinin kullanmak isteyeceği ve kullananların 
    - Ek bir iş gücü harcamandan (Third-Party ) şekilde post,
    - duyuru paylaşabilme
  - Ve daha fazlası
+ 
+
+## Sonuç
+
+Sadece bir Ürün değil. Herkese açık bir platform geliştirdik bu platform ile tüm firmalar birbiri ile uyumlu bir servise erişim sağlamış olucak ayrıca makine öğrenmesi servislerimizden fayda sağlamış olucak.
+
+Hep birlikte çalışan Mobil uygulama, Yönetim Paneli, Makine Öğrenmesi Servisi ve hepsinin bağlı olduğu servis platformunun ilk versiyonunu gerçekleştirdik.
 
 ## Mobil Uygulama
 
@@ -41,11 +48,18 @@ MOSB odaklı kullanıcı ve sanayicinin kullanmak isteyeceği ve kullananların 
 
 ![]()
  
+## Python Veri Analizi
+
+![](https://lh6.googleusercontent.com/5HXp4RSEnGH3CL0gPCXcpHenIUtCqyM6khjazkTkrxpDGv09Hm5xoCZuiBRzC3VvXIq0DfYNTG_z58b6_WzMjFZP5BxJCwqtrJcNeujPYNqGAbtqeyrJ-Jh9IuM_r8ONorRwJ1do)
+ 
 ## Yönetim Paneli
  
  ![](https://lh4.googleusercontent.com/pGr2B-SlWPNUXY9JH0v1lnlMXWPO9iPGiW0SpMWrLteGTQDDEBIsaxK7Ppt3N27nScapZ7sls3z9_zaOxcHEj3OU0UYZSXW6aOC22nu7cZQzlvbTdRXS9LEL2HiR8RAiGpnrwB6i)
  
- ![](https://lh5.googleusercontent.com/JqptRfjl_O0oD4RLHNrvF6jteJPJwwmn2fMrm0NCNYfNsUJEDYXZ1wKKzz4TpXbqRKGqTQFvstKEw2xEGErxgYn6fUfP1b_tA1FaDpnPoErfs086bba-zDAZqLHeBs1sD5Q5-6GE)
+ ![](https://lh4.googleusercontent.com/YaRg_mVZdRvUFGj1SmfnmrKFBr7zY-o0n8_8NRwNjVdTAqHBPhkV8ZCwmN_EcquzZ6laz80eRSr1CjcWuZ0ib7YqW47uL2gatFylE6KcTEWd_SnAZ2ZdLyCswu5sM0z7lQnauG6B)
+ 
+  ![](https://lh5.googleusercontent.com/JqptRfjl_O0oD4RLHNrvF6jteJPJwwmn2fMrm0NCNYfNsUJEDYXZ1wKKzz4TpXbqRKGqTQFvstKEw2xEGErxgYn6fUfP1b_tA1FaDpnPoErfs086bba-zDAZqLHeBs1sD5Q5-6GE)
+ 
  
  ## Grubumuz
 
