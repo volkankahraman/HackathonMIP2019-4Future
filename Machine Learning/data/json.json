@@ -1,0 +1,210 @@
+[
+  {
+    "comment": "Bu firma gayet başarılı. Günün birinde çalışmayı çok isterim.",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "Memnun değilim. Kötü bir firma",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "Gayet başarılı bir firma yerli ve milli çok beğeniyorum",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "ürünler çok güzel iyi bir çalışması var",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "firma açısından ülkenin önde gelen bir taşıyıcısı",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "böyle ürün mü olur venüsler çok kötü",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "çok kötü bir çalışması var iş şartları berbat",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "ben böyle rezalet görmedim iş imkanları berbat",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "iyi bir çalışması var iş imkanları gayet iyi bence daha güzel çalışmaları olacak",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "soğutucular çok güzel iş imkanları iyi",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "iyi bir çalışma ortamı var öğrenci veya iş arayan arkadaşlara öneririm",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "berbat bir çalışması stili var maaşlar çok düşük önermiyorum",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "kötü yemek şartları var iş imkanı orta ama maaş seviyesi berbat",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "çalışma imkanları iyi maaş seviyesi yüksek ve kesinlikle öneririm",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "ürünler hatalı ve eksik geliyor çalışma konusunda sıkıntı çekiyoruz",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "iş imkanları berbat kesinlikle gelmeyin",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "iyi arkadaşlarım oldu maaş yüksek imkanlar iyi daha ne isterimki",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "kablolar kötü ve hatalı geliyor ulaşım konusunda sıkıntı yaşıyoruz",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "berbat ürünler var çalışmayın ",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "teknik destek alamıyorum aradığım kimseye ulaşamıyorum",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "iyi ve kaliteli ürün üretiyor",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "ürünler tam ve eksiksiz ulaştı elimize ayrıca teknik destek sağlıyor bence gayet iyi",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "tam ve eksiksiz ürünler üretiyor kesinlikle öneririm",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "bence çalışan pişman olur bu firmaya 1 bile fazla ama neyse",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "kötü çalışma şartları var",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "ben çalışıyorum ve gayet başarılı bir firma maaş imkanı iyi",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "ürünler başarılı ve eksiksiz elime ulaştı",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "başarılı bir çalışma ve pazarlama stratejisi var ben olsam kesinlikle çalışırım",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "iyi çalışma şartları var ve maaş gayet güzel çalışmak için ideal bir firma",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "ortak çalıştığımız firmalarımızdan biri hiç sorun yaşamadık çok iyi bir çalışma ortaklığımız var gayet memnunuz",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "hakkımı helal etmiyorum ",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "ben memnunum bence çalışın",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "köklü bir geçmişi var ve sistemli çalışıyorlar alman disiplini olması çok güzel çalışma ortamı güzel maaş baya iyi",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "10 senedir çalışıyorum gayet memnunum herkese öneririm",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "iyi bir firma iş imkanları ve maaş güzel",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "çok kötü bir çalışma ortamı var ürünler hatalı ve sorunlu para işlemleri tamamen bozuk ve aradığım kimseye ulaşamıyorum",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "ürünler gerçekten kaliteli ödeme sorunsuz teknik destek iyi ",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "iyi teslimat hızlı cevap sorunsuz ürün",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "hatalı ve sorunlu birçok problem yaşadık almayın ",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "Çalışma şartları ve maaş imkanı gayet güzel insan ilişkileri iyi",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "personel bakış olarak çok kötüler hiç bir ihtiyacını karşılamıyorlar",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "ürün teslimatı berbat ben böyle rezalet görmedim",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "firma olarak insana değer veriyorlar ve gerçekten kaliteli ürün yapıyorlar alışverişte sorunsuz gerçekleşiyor",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "adamlar gerçekten yapıyor baya güzel hizmet sağlıyorlar",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "kurum olarak baya iyi teknik destek sağlıyor",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "berbat bir ürün gönderme sistemi var kesinlikle çalışılmaz",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "milli olması çok güzel ayrıca hizmet ve teknik destek bakımından gayet yardımcı ve başarılı",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "berbat insan ilişkileri var ve gerçekten allaha emanet iş yapıyorlar böyle rezalet görmedim",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "kaliteli hizmet iyi ürün",
+    "sentiment": "positive"
+  },
+  {
+    "comment": "berbat rezalet çok kötü ",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "iğrenç hiç beğenmedim sevmedim",
+    "sentiment": "negative"
+  },
+  {
+    "comment": "böyle firma olmaz olsun",
+    "sentiment": "negative"
+  }
+]
