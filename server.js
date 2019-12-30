@@ -53,7 +53,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(logger)
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerJsdoc(options)));
-
+app.use('/public', express.static('public'))
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter)

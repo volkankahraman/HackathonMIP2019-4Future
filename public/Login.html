@@ -1,0 +1,90 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	 	 
+	 <!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/all.css"/>
+	<link rel="stylesheet" type="text/css" href="css/all.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/brands.css"/>
+	<link rel="stylesheet" type="text/css" href="css/brands.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/regular.css"/>
+	<link rel="stylesheet" type="text/css" href="css/regular.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/solid.css"/>
+	<link rel="stylesheet" type="text/css" href="css/solid.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/svg-with-js.css"/>
+	<link rel="stylesheet" type="text/css" href="css/svg-with-js.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/v4-shims.css"/>
+	<link rel="stylesheet" type="text/css" href="css/v4-shims.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/><!--Sıralama önemli-->
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css.map"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css.map"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css.map"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css.map"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css.map"/>
+	<title>Bootstrap İle Web Site</title>
+	
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+	
+  </head>
+ <body id="bodbg"> 
+<form id="loginForm">
+  <div class="log" style="height: 291px;opacity:0.95">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email adres</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Şifre</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+<div class="col text-center">
+  <button type="submit" class="btn btn-primary btn-block">Giriş Yap</button>
+  </div>
+</div>
+</form>
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $('#loginForm').submit(e =>{
+    e.preventDefault()
+    $.ajax({
+    type: "POST",
+    url: "http://10.103.174.184:3000/login",
+    data: {
+      mail: $('#exampleInputEmail1').val(),
+      password: $('#exampleInputPassword1').val()
+    },
+    success: (data)=>{
+      console.log(data);
+      if(data.message == 1 || data.message == 2 || data.message == 3){
+        localStorage.setItem('usertype',data.message)
+        if(data.message == 3)
+          document.location.href = '/home.html';
+        else if(data.message == 2)
+          document.location.href = '/ChannelAdmin.html'
+        else if(data.message == 1)
+          document.location.href = '/Admin.html'
+      }
+      else
+      alert("Hatalı kullanıcı adı şifre")
+    }
+  });
+  })
+</script>
+</body>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html> 

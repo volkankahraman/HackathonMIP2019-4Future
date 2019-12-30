@@ -1,0 +1,31 @@
+.log{
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    background-color: skyblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -150px;
+	opacity: 1;
+	filter: alpha(opacity=20);
+	border-radius: 20px;
+	background-color:white;
+    /*background-image: url("img/MIP.jpg");
+	
+	/*background-color: transparent;*/
+}
+
+
+#bodbg{
+	
+	 background-image: url("img/MIP.jpg");
+}
+
+.mainDiv{
+	height:1500px;
+	width:900px;
+	margin-left:150px;
+}
+

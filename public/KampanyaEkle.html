@@ -1,0 +1,188 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+       <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/all.css"/>
+	<link rel="stylesheet" type="text/css" href="css/all.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/brands.css"/>
+	<link rel="stylesheet" type="text/css" href="css/brands.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/regular.css"/>
+	<link rel="stylesheet" type="text/css" href="css/regular.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/solid.css"/>
+	<link rel="stylesheet" type="text/css" href="css/solid.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/svg-with-js.css"/>
+	<link rel="stylesheet" type="text/css" href="css/svg-with-js.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/v4-shims.css"/>
+	<link rel="stylesheet" type="text/css" href="css/v4-shims.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/><!--Sıralama önemli-->
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css.map"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css.map"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css.map"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css.map"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css.map"/>
+	<title>Bootstrap İle Web Site</title>
+	
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Kurum Adı</a>
+      <input class="form-control form-control-dark w-100" type="text" placeholder="Ara" aria-label="Search">
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="#">Çıkış Yap</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="Home.html">
+                  <span data-feather="home"></span>
+                  Ana Sayfa <span class="sr-only">(current)</span>
+                </a>
+              </li>
+            </ul>
+          </div>	
+        </nav>
+		
+		
+		<!--
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4" >  
+		-->
+		<main role="main" class="mainDiv" >  
+		 
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom" >
+          <h2>Yeni Kampanya Ekle</h2>
+		  <div class="btn-toolbar mb-2 mb-md-0">
+              <div class="btn-group mr-2">
+                <button class="btn btn-sm btn-outline-secondary" id="buton" >Ekle</button>
+					
+            
+            
+              </div>
+			   <div class="dropdown">
+                
+                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			       <a class="dropdown-item" href="#">Bu Hafta</a>
+			       <a class="dropdown-item" href="#">Bu Ay </a>
+                   <a class="dropdown-item" href="#">Bu Yıl</a>
+                 </div>
+             </div>
+            </div>
+	
+		</div>
+        <input class="form-control" type="text" placeholder="Kampanya Numarası" >
+		         <a>
+                  No
+                </a>
+		<input class="form-control" type="text" placeholder="Bitiş Tarihi " >
+		        <a>
+                  Date
+                </a>
+		<div class="form-group">
+			
+				<select class="form-control" id="exampleFormControlSelect1" placeholder="Kategori">
+					<option>İş</option>
+					<option>Eğlence</option>
+					<option>İletişim</option>
+					<option>Eğitim</option>
+				</select>
+				<label for="exampleFormControlSelect1">Kategori</label>
+			</div>
+		        
+		<input class="form-control" type="text" placeholder="Detay" >
+		        <a>
+                  Details
+                </a>
+        </main>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+
+    <!-- Graphs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script>
+      var ctx = document.getElementById("myChart");
+      var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"],
+          datasets: [{
+            data: [15339, 21345, 18483, 24003, 40000, 24092, 12034],
+            lineTension: 0,
+            backgroundColor: 'transparent',
+            borderColor: '#007bff',
+            borderWidth: 4,
+            pointBackgroundColor: '#007bff'
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: false
+              }
+            }]
+          },
+          legend: {
+            display: false,
+          }
+        }
+      });
+	  
+1
+
+</script>
+<script>
+var buton=document.getElementById("buton");
+buton.onclick=function(){
+window.confirm("Kayıt İşlemi Onayla"); 
+}
+</script>
+
+</head>
+    </script>
+  </body>
+</html>
